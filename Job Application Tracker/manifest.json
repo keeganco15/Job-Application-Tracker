@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Job Tracker",
+    "version": "0.0.1",
+    "description": "Show popup on LinkedIn or Indeed",
+    "icons": {
+        "16": "icons/cat.png",
+        "48": "icons/cat.png",
+        "128": "icons/cat.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/cat.png",
+            "48": "icons/cat.png",
+            "128": "icons/cat.png"
+        }
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.linkedin.com/*",
+          "*://*.indeed.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "permissions": ["storage"],
+    "host_permissions": [
+      "*://*.linkedin.com/*",
+      "*://*.indeed.com/*"
+    ]
+  }
+  
