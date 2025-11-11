@@ -1,7 +1,0 @@
-add duplication detection 
-add submenu for job listing details/editing/deletetion
-make homepage
-make other pages - such as account, settings, etc
-design popup UI
-make popup for when applying to a job ("Job tracked sucker!")
-make premium features - make it worth buying - set price, pretty low like £5 a month (if 1000 people subscirbe thats £5000 a month, MONEYYYY)
