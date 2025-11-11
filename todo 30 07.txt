@@ -1,0 +1,8 @@
+to do:
+set up notifications - what notifications will there be?
+fix job editing 
+finsih all toast popups
+finish extension popup ui implementation
+add functionality to all side pages (account, settings)
+plan backend - accounts, where to host site?
+main website homepage
