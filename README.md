@@ -35,3 +35,7 @@ No external server or database is required.
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/keeganco15/Job-Application-Tracker.git
+
+## Testing
+
+This project has not undergone proper testing yet, so please bear with any bugs/loss of function.
