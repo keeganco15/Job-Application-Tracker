@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AppliMate</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <!-- Top Panel -->
+    <div class="top-panel">
+
+      <div class="top-left">
+        <h1 id="site-title">
+          <img src="icons/icon192.png" alt="App logo">
+          AppliMate - Job Application Tracker
+        </h1>
+      </div>
+
+      <div class="top-right">
+        <button id="account-btn">Account</button>
+      </div>
+
+    </div>
+
+    <!-- Left Sidebar -->
+    <div class="left-panel">
+
+      <div class="nav-buttons">
+        <button class="nav-btn" id="applications-btn">Application Board</button>
+        <button class="nav-btn" id="settings-btn">Settings</button>
+        <button>Documents</button>
+        <button>Buy Me a Coffee</button>
+      </div>
+
+      <div class="logout-button">
+        <button>Log Out</button>
+      </div>
+
+    </div>
+
+    <!-- Main Content Panel -->
+<div id="main-panel">
+
+  <!-- Sub Top Panel inside Main Panel -->
+  <div class="main-top-panel">
+
+    <div class="main-top-left">
+      <input type="text" id="search-bar" placeholder="Search jobs..." />
+    </div>
+
+    <div class="main-top-right">
+      <button id="add-job-btn">➕ Add Job</button>
+    </div>
+
+  </div>
+
+  <!-- Rest of dashboard content will load here -->
+  <div id="main-content"></div>
+  
+</div>
+
+    
+    
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
