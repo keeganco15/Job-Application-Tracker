@@ -1,6 +1,6 @@
 # Job Track
 
-A lightweight Chrome extension for tracking job applications while you browse. No accounts, no backend — everything is stored locally in your browser.
+A Chrome extension for tracking job applications while you browse. No accounts, no backend — everything is stored locally in your browser.
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)
