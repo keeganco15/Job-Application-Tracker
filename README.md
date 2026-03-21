@@ -16,7 +16,7 @@ A Chrome extension for tracking job applications while you browse. No accounts, 
 - Star favourite applications
 - Edit or delete entries at any time
 - Response rate stats at a glance
-- Data stays on your device — nothing is sent anywhere
+- Data stays on your device, nothing is sent anywhere
 
 ## Tech stack
 
@@ -76,7 +76,7 @@ Click the Job Track icon in your Chrome toolbar to open the popup. From there yo
 
 ## Known issues
 
-- Not formally tested — there may be bugs
+- Not formally tested, there may be bugs
 - Auto-scraping is limited to Indeed and LinkedIn
 
 ## Roadmap
