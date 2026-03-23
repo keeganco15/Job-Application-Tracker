@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "AppliMate - Job Application Tracker",
+  "version": "1.0.0",
+  "description": "Easily track your job applications on Indeed by auto-saving job details when you click apply.",
+  "icons": {
+    "128": "resources/icon.png"
+  },
+  "action": {
+    "default_popup": "pages/popup.html",
+    "default_icon": {
+      "128": "resources/icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.indeed.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": [
+    "*://*.linkedin.com/*",
+    "*://*.indeed.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dashboard.html", "addJob.html", "account.html", "settings.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
