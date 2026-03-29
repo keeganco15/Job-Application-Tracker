@@ -67,17 +67,14 @@ Job-Application-Tracker/
 
 ## Usage
 
-Click the Job Track icon in your Chrome toolbar to open the popup. From there you can:
+Click the apply button on Indeed or LinkedIn job postings to save job details.
+
+Click the Job Track icon in your Chrome toolbar to open the popup. From there you can open the dashboard:
 
 - Click **Add Job** to log a new application
 - Click any row in the dashboard to expand notes
 - Use the sidebar to filter by status
 - Use the search bar and sort dropdown to find applications
-
-## Known issues
-
-- Not formally tested, there may be bugs
-- Auto-scraping is limited to Indeed and LinkedIn
 
 ## Roadmap
 
