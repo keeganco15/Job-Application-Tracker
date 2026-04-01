@@ -1,6 +1,6 @@
 # Job Track
 
-A Chrome extension for tracking job applications while you browse. No accounts, no backend — everything is stored locally in your browser.
+A Chrome extension for tracking job applications while you browse. No accounts, no backend, everything is stored locally in your browser.
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)
@@ -12,10 +12,10 @@ A Chrome extension for tracking job applications while you browse. No accounts, 
 
 ## Features
 
-- Track job title, company, location, salary, status and notes
+- Track job title, company, location, salary, status, and notes
 - Filter applications by status (Applied, Interview, Offer, Rejected, Withdrawn)
 - Search across all fields
-- Sort by date, company or status
+- Sort by date, company, or status
 - Star favourite applications
 - Edit or delete entries at any time
 - Response rate stats at a glance
@@ -70,9 +70,9 @@ Job-Application-Tracker/
 
 ## Usage
 
-Click the apply button on Indeed or LinkedIn job postings to save job details.
+Click the "Apply" button on Indeed or LinkedIn job postings to save job details.
 
-Click the Job Track icon in your Chrome toolbar to open the popup. From there you can open the dashboard:
+Click the Job Track icon in your Chrome toolbar to open the pop-up. From there, you can open the dashboard:
 
 - Click **Add Job** to log a new application
 - Click any row in the dashboard to expand notes
@@ -83,7 +83,7 @@ Click the Job Track icon in your Chrome toolbar to open the popup. From there yo
 
 - [ ] Export to CSV
 - [ ] Follow-up reminders
-- [ ] Backend implentation
+- [ ] Backend implementation
 
 ## License
 
